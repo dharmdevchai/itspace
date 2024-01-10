@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+       <meta charset="utf-8">
+       <title>IT Space-services</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+       <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+       <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+       <!-- Icon-->
+       <link rel="stylesheet" href="icons-1.8.1\font\bootstrap-icons.css">
+       <script src="bootstrap-5.1.3-dist/js/myjquery.js"></script>
+       
+       <link rel="stylesheet" href="css/includes/navbar.css" />
+       <link rel="stylesheet" href="css/includes/carousel.css" />
+       <link rel="stylesheet" href="css/services.css">
+       <link rel="stylesheet" href="css/includes/footer.css">
+    </head>
+
+   <body>
+	   
+       <?php include 'includes/navbar.php';?>
+       <main>
+           <div class="services_main">
+               <div class="container all_services"style="padding-bottom: 25px;">
+                   <span><i class="bi bi-reception-3"></i>Networking</span>
+                   <hr>
+                   <div class="service_item" style="text-align:center;">
+                        <div class="item_content">
+                            <p>
+                            Networking is the act of connecting computers and other devices together in order to share data, resources, and information. It involves using a variety of technologies, such as Ethernet cables, wireless networks, and other communication protocols. Networks can be used to allow for remote access to files and applications, as well as to enable collaboration and communication between users.
+                            </p><br>
+                            <p>
+                            The requirements for networking vary depending on the type of network being set up and the specific needs of the users. Generally speaking, the main requirements for networking include:
+                            </p><br>
+                            <p>
+                               <b> Computers: </b> Computers are the main component of a network. Depending on the type of network being set up, a variety of computers may be used, such as desktops, laptops, and mobile devices. <br>
+                                <b>Network Interface Cards (NICs):</b> NICs are required for each computer on the network in order to connect it to the network. <br>
+                                
+                                <b>Network Cables:</b> Ethernet cables are commonly used to connect computers together in a wired network. Wireless networks may also be used, and require wireless routers or access points. <br>
+                                
+                                <b>Network Operating System:</b> A network operating system is required in order to manage the network, and provide access to the resources that the network provides. <br>
+                                
+                                <b>Network Protocols:</b> Network protocols are used to define the rules that govern data transmission between devices on the network. <br>
+                                
+                                <b>Security Software:</b> Security software is used to protect the network from unauthorized access and protect the data stored on the network. <br>
+                            </p>
+                            <div class="img">
+                            <img src="images/services/networking.jpg" alt="" >
+
+                        </div>
+                            
+                            
+                        </div>
+
+                        <div class="img">
+                            <img src="images/services/device_networking.jpg" alt="" >
+
+                        </div>
+                   
+                    </div>
+                    <a href="feedback.php" class="navigation_btn" style="width:fit-content;align-self:center;">Let's Get Started -></a>
+
+                </div>
+            </div>
+   
+
+
+
+
+       <?php include 'includes/footer.php';?>
+       </main> 
+
+       <script>
+            $("#networking").css("color","#ed1c24")
+
+       </script>
+		<?php
+		include 'scripts/scripts.php';
+		include 'scripts/includes/navbar.php';
+		include 'scripts/services.php';
+		?>
+
+
+
+   </body>
+</html>

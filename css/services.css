@@ -1,0 +1,229 @@
+.services_main{
+    background-color: #ddefff;
+    padding-top: 120px;
+}
+.all_services{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.two_services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.each_service{
+    background-color: white;
+    display: flex;
+    width: 48%;
+    border-radius: 8px;
+    padding: 10px;
+    color: #ed1c24;
+    align-items: center;
+    height: 120px;
+}
+.each_service .title{
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.each_service .description{
+    display: flex;
+    margin-top: 5px;
+    color: gray;
+
+}
+
+.all_services span{
+    font-size: 2rem;
+    color: #ed1c24;
+}
+.all_services hr{
+    width: 50px;
+    color: #ed1c24;
+    border: 4px solid #ed1c24;
+}
+.each_service i{
+    font-size: 52px;
+    margin-right: 5px;
+}
+.each_service:hover{
+    background: #ed1c24;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    color: white;
+
+}
+.each_service:hover .description{
+  color: white;
+  transition: all ease 0.5s;
+}
+
+.each_service .detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:600px){
+    .two_services{
+        flex-direction: column;
+    }
+    .each_service{
+     
+        width: 90%;
+    }
+    .each_service:first-child{
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .services hr{
+    color: #ed1c24;
+    height: 5px;
+    width: 50px;
+    margin-top: -10px;
+  }
+  .services p{
+    width: 70%;
+    text-align: center;
+  }
+  .services .service_items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .service_items .service{
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #00000012;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+  .service_items .item_name{
+    font-size: 1rem;
+    color: #ed1c24;
+    margin:auto;
+    text-align: center;
+  }
+  .service hr{
+    margin-top: 0;
+  }
+  .service:hover{
+    cursor: pointer;
+    transition: all ease 0.5s;
+
+    box-shadow: 5px 5px 5px 5px #00000060;
+
+  }
+  .service a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .navigation_btn{
+    text-decoration: none;
+    border: 2px solid #ed1c24;
+    padding: 15px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: white;
+    background: #ed1c24;
+    transition: all ease .6s;
+
+  }
+  .navigation_btn:hover{
+    color: #ed1c24;
+    background: white;
+    cursor: pointer;
+    transition: all ease .6s;
+
+  }
+  .services i{
+    font-size: 45px;
+    color: #ed1c24;
+  }
+  .services{
+    margin-bottom: 30px;
+  }
+
+  .service_item{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .service_item .item_content{
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  .service_item .img{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .service_item img{
+    border-radius: 5px;
+   width: 80%;
+  }
+  @media screen and (max-width:1000px){
+    .service_item{
+      flex-direction: column-reverse;
+    }
+    .service_item img{
+      width: 70%;
+    }
+    .service_item .item_content{
+      margin: 0;
+      margin-top: 20px;
+      
+    }
+
+  }
+  @media screen and (max-width:600px){
+    .service_item img{
+      width: 90%;
+    }
+
+
+
+  }
+  @media screen and (max-width:800px){
+
+  }
+  @media screen and (max-width:400px){
+.all_services,.services{
+  font-size: 12px;
+}
+.each_service  .title{
+  font-size: 16px;
+}
+.all_services span{
+  font-size: 20px;
+}
+.services_main{
+  padding-top: 60px;
+}
+  }
+
+ 

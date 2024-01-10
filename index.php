@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>IT Space-home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+	  <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+	  <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+	  <!-- Icon-->
+	  <link rel="stylesheet" href="icons-1.8.1\font\bootstrap-icons.css">
+	  <script src="bootstrap-5.1.3-dist/js/myjquery.js"></script>
+	  
+	  <link rel="stylesheet" href="css/includes/navbar.css" />
+	  <link rel="stylesheet" href="css/includes/carousel.css" />
+	  <link rel="stylesheet" href="css/dashboard.css">
+	  <link rel="stylesheet" href="css/includes/footer.css">
+
+   </head>
+   <body>
+	   
+	<?php include 'includes/navbar.php';?>
+	   <main>
+		   <?php include 'includes/carousel.php';?>
+
+		    <div class="container marketing">
+			    <div class="row special_product">
+				    <div class="col-lg-4 product_1 flip-card">
+					   <div class="flip-card-inner">
+						   <div class="flip-card-front">
+							   <img src="images/services/softwares.jpg" width="90%" height="50%" >
+							   <h3 class="fw-normal">Software Issues</h3>
+							   <p>Corrupt Drivers. ...<br>
+Malware Attack. ...<br>
+Inability to Access Email. ...<br>
+Windows Displaying Blue Screen. </p>
+							</div>
+							<div class="flip-card-back">
+								<img src="images/services/os.jpg" width="90%" height="50%">
+								<h3 class="fw-normal">OS Issues</h3>
+								<p>Corrupt Registry<br>
+								Thrashing<br>
+								Virus<br>
+								Failure to Boot<br>
+							</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 product_2 flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="images/services/issue_solving.jpg" width="90%" height="50%" >
+								<h3 class="fw-normal">Hardware Issues</h3>
+								<p>Video card faults<br>
+								Fan noises<br>
+								Battery not charging<br>
+								Keys not working on keyboard<br>
+							</p>
+							</div>
+							<div class="flip-card-back">
+								<img src="images/services/motherboard_issue.jpg"width="90%" height="50%" >
+								<h3 class="fw-normal">Motherborad Issues</h3>
+								<p>Not enough power<br>
+								Frequent crashing<br>
+								Computer does not turn on<br>
+								Computer randomly shuts off<br>
+							</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 product_3 flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="images/services/desktop_repairing.jpg" width="90%" height="50%" >
+								<h3 class="fw-normal">Comman Issues</h3>
+								<p>The Screen is Frozen<br>
+								Computer is Slow<br>
+								Strange Noises<br>
+								Slow Internet
+							</p>
+							</div>
+							<div class="flip-card-back">
+								<img src="images/products/inbuilt_products/charger.jpg"width="90%" height="50%" >
+								<h3 class="fw-normal">Charging Issues</h3>
+								<p>
+								Bad Alternator<br>
+								Dead Battery<br>
+								Worn or Broken Belts<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="featurette-divider">
+			<div class="feature">
+				<div class="row featurette container">
+					<div class="col-md-7">
+					  <h2 class="featurette-heading fw-normal lh-1">Reparing <br><span class="text-muted" >It’ll blow your mind.</span></h2>
+					  <p class="">The acknowledgment of our weakness is the first step in repairing our loss. You either spend your life preparing or you spend your life repairing.</p>
+					</div>
+					<div class="col-md-5">
+						<img src="images/services/repairing.jpg" style="height:100%;width:100%;">
+			  
+					</div>
+				</div>
+			</div>
+			<hr class="featurette-divider">
+			<div class="row featurette container" style="margin:auto;">
+			  <div class="col-md-7 order-md-2">
+				<h2 class="featurette-heading fw-normal lh-1">Home Services<br><span class="text-muted" >See for yourself.</span></h2>
+				<p class="">No matter what ‘home’ means to you, there is surely something nostalgic about the place we call home. It’s the place where we eat, the place with friends and family, where we enjoy our home goods and decor, and it’s the place we make our own.</p>
+			  </div>
+			  <div class="col-md-5 order-md-1">
+				  <img src="images/services/home_service.jpg" style="height:100%;width:100%;">
+				  
+			  </div>
+			</div>
+			<hr class="featurette-divider">
+			<div class="feature">
+				<div class="row featurette container">
+					<div class="col-md-7">
+					  <h2 class="featurette-heading fw-normal lh-1">Fast and Effective<br><span class="text-muted" >Checkmate.</span></h2>
+					  <p class="">Light thinks it travels faster than anything but it is wrong. No matter how fast light travels, it finds the darkness has always got there first, and is waiting for it.</p>
+					</div>
+					<div class="col-md-5">
+						<img src="images/dashboard/fast_and_effective.png" style="height:100%;width:100%;" >
+						
+					  </div>
+				</div>
+			</div>
+			<hr class="featurette-divider">
+
+				
+			
+			
+			<div class="container services">
+			<i class="bi bi-gear-wide-connected"></i>
+			   <h1>Services</h1>
+			   <hr>
+			   <p>
+				   Our team of motivated technicians are trained to help you with all your IT needs.
+				   If you have a problem, we will figure out how to fix it.
+				</p>
+				<div class="service_items">
+					<div class="service">
+						<a href="feedback.php">
+						<i class="bi bi-reception-3"></i>
+							<div class="item_name">
+								Networking
+							</div>
+							<hr>
+						</a>
+					</div>
+					<div class="service">
+						<a href="feedback.php">
+							<i class="bi bi-laptop-fill"></i>
+							<div class="item_name">
+								Remote Assistant
+							</div>
+							<hr>
+						</a>
+					</div>
+					<div class="service">
+						<a href="feedback.php">
+							<i class="bi bi-globe"></i>
+							<div class="item_name">
+								Sells + Repairing
+							</div>
+							<hr>
+						</a>
+					</div>
+					<div class="service">
+						<a href="services.php">
+							<i class="bi bi-file-earmark"></i>
+							<div class="item_name">
+								Others
+							</div>
+							<hr>
+						</a>
+					</div>
+				</div>
+				<a href="services.php" class="navigation_btn">Let's Get Started -></a>
+		    </div>
+		   <hr class="featurette-divider">
+		   <div class="about_content">
+			   <div class="container">
+				   <h3 style="color: white;">IT Support in Bhairahawa</h3>
+				   <p>At The IT Space, we have years of experience working with IT systems and cabling for customers in and around Townsville. Our team of dedicated professionals includes senior systems engineers and cabling specialists who are passionate about IT. We pride ourselves in our work, always going the extra mile to help our customers and ensure that our work is completely satisfactory every time; we work closely with all of our clients to deliver tailored IT solutions that are designed to fit your needs.</p>
+				   <p>If you’re looking for friendly, dedicated IT support in Townsville, <strong><a href="feedback.php">call us today</a></strong>.</p>
+					<br>
+					<h3 style="color: white;">About The IT Space</h3>
+					<p>We are experts in IT, and we consider it our first priority to understand you. Whatever your priorities are, whether they’re performance, usability, security, or something even simpler: we’ll put those at the forefront of our work. We work for a wide range of clients in the Townsville area, including both individuals and businesses: parents, students, sole traders, small businesses. Whoever you are and whatever your goals, we will make them ours too.</p>
+					<p>If you’d like to know more about how we can help you, pick up the phone today. We’re happy to have a 10-minute chat about your needs and offer friendly advice and guidance about the next steps needed to get you there.</p>
+				</div>
+		   </div>
+		   <div class="container">
+			   <div class="it_officer">
+				   <div class="it_officer_content" >
+						   <h3>IT Services for Offices</h3>
+						   <p>At The IT Space, we offer a number of specialist services designed to make your office’s IT systems smooth and streamlined. If you’re in a jam that needs a fast repair, you can call us at any time for responsive <strong><a href="#meeting">remote assistance</a></strong>. Our team of professional IT experts can also help to design the right IT systems for your business, from computers and peripherals right the way through to <strong><a href="#">phone and internet</a></strong> services and printing. Our complete range of IT services for offices includes:</p>
+							<ul>
+								<li>Remote and onsite assistance &amp; repairs</li>
+								<li>Computer sales</li>
+								<li>Managed print services</li>
+								<li>Phone and internet including IP and VoIP phones</li>
+								<li>Managed services provider hosting</li>
+								<li><strong><a href="#">Workshop and onsite</a></strong> services</li>
+							</ul>
+							<p>&nbsp;</p>
+							<p>To find out more about how we can help your business to thrive with tailored IT systems, <strong><a href="feedback.php">call us today</a></strong>.</p>
+					</div>
+					<div class="img">
+						<img src="images/dashboard/carousel/banner_1.jpg" alt="">
+						
+					</div>
+				</div>
+		   </div>
+		   <hr class="featurette-divider">
+		   <div class="home_service">
+			   <div class="container">
+					<h3 style="color: white;">IT Services For Home</h3>
+					<p>We offer a number of services for individuals and domestic customers across Townsville. Whether you’re in need of a new computer or your existing computer isn’t working as it should, our team of experts will be happy to take a look at your systems and diagnose any issues quickly and professionally. We put good customer service at the forefront of everything we do, which is why we never push the hard sell: your best interests are our best interests, and we strive hard to find the right solutions for you. Our at-home IT services include:</p>
+					<ul>
+						<li>Remote and in-person assistance &amp; repairs</li>
+						<li><strong><a href="#">Data recovery</a></strong></li>
+						<li><strong><a href="#">Mac repairs</a></strong> and upgrades</li>
+						<li>Workshop and onsite services</li>
+					</ul>
+					<p>&nbsp;</p>
+					<p><strong><a href="#">Find out more</a></strong> or tell us about your home IT set-up by calling us today. We’re always happy to discuss IT systems and computers with clients old and new.</p>
+				</div>
+		   </div>
+		   
+
+		   <div class="container">
+			   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+			   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+			   
+			   <div class="container brands" >
+			   <i class="bi bi-lightning-fill"></i>
+				   <h1>Our Brands</h1>
+				   <hr>
+				   <p style="width:80%;text-align:center;margin-bottom: 50px;">
+					   Our team of motivated technicians are trained to help you with all your IT needs.
+					   If you have a problem, we will figure out how to fix it.
+					</p>
+					<div class="container">
+						<section class="customer-logos slider" >
+							<div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+							<div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+							<div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+							<div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+							<div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+							<div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+							<div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div> 
+						</section>
+					</div>
+				</div>
+			</div>
+			
+			<hr class="featurette-divider">
+			<div class="meeting" style="    background-color: #dfdcdc33;" id="meeting">
+				<div class="container services" style="padding-bottom:25px;">
+				<i class="bi bi-magic"></i>
+					<h1>Remote Assistant</h1>
+					<hr>
+					<p>
+					Distance doesn’t matter.Serving you always. Serving you remotely.Growing your business from another place.We’re already there.
+					</p>
+					<div class="service_items">
+						<div class="service">
+							<a href="tel:+977-07154175">
+								<i class="bi bi-telephone-fill"></i>
+								<div class="item_name">
+									Phone Call
+								</div>
+								<hr>
+							</a>
+						</div>
+						<div class="service">
+							<a href="feedback.php">
+								<i class="bi bi-router-fill"></i>
+								<div class="item_name">
+									Router
+								</div>
+								<hr>
+							</a>
+						</div>
+						<div class="service">
+							<a href="feedback.php">
+								<i class="bi bi-webcam-fill"></i>
+								<div class="item_name">
+									CCTV
+								</div>
+								<hr>
+							</a>
+						</div>
+						<div class="service">
+							<a href="feedback.php">
+								<i class="bi bi-file-earmark"></i>
+								<div class="item_name">
+									Others
+								</div>
+								<hr>
+							</a>
+						</div>
+					</div>
+					<a href="feedback.php" class="navigation_btn">Let's Get Started -></a>
+				</div>
+			</div>
+
+		   <?php include 'includes/footer.php';?>
+		   
+		</main>
+		<?php
+		include 'scripts/scripts.php';
+		include 'scripts/includes/navbar.php';
+		include 'scripts/dashboard.php';
+
+		
+		
+		?>
+
+
+   </body>
+</html>

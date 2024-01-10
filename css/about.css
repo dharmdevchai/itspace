@@ -1,0 +1,125 @@
+.description{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 3px 5px 2px black;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+main{
+    overflow: hidden;
+}
+.about_text{
+    padding: 30px;
+
+}
+.about_text h1{
+    font-weight: 900;
+}
+.about_text p{
+    font-family: serif;
+    font-size: 18px;
+}
+.description img{
+    width: 400px;
+    height: 550px;
+
+
+}
+@media screen and (max-width:1024px){
+    .description img{
+        width: 300px;
+        height: 750px;
+    }
+}
+@media screen and (max-width:1024px){
+    .description {
+        flex-direction: column;
+    }
+    .description .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description img{
+        width: 100%;
+    }
+}
+.team_mates{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.team_mates i{
+    font-size:2.5rem;
+    color: #ed1c24;
+}
+.team_mates hr{
+    color: #ed1c24;
+    width: 60px;
+    margin-top: -5px;
+    border: 2px solid #ed1c24;
+}
+.team_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.team_details .team{
+    border-radius: 7px; 
+    width: 250px;
+    box-shadow: 1px 1px 14px 1px  black;
+    margin: 8px;
+    overflow: hidden;
+
+
+}
+.team_details img{
+    filter: contrast(0.5);
+    transition: all ease 0.6s;
+    height: 300px;
+    max-width: 100%;
+}
+.team .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:12px;
+    flex-direction: column;
+}
+ .team:hover img{
+    filter: none;
+}
+@media screen and (max-width:800px){
+    .description{
+        margin-top: 105px;
+    }
+}
+@media screen and (max-width:550px){
+    .description{
+        margin-top: 60px;
+        width: 90%;
+        
+
+    }
+    .about_text{
+        padding: 10px;
+    }
+    .team_mates{
+        font-size: 13px;
+    
+    }
+    .team_details .team{
+        width: 90%;
+    }
+    .about_text p{
+        font-size: 14px;
+        text-align: justify;
+      
+    }
+}
+
