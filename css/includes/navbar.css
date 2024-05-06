@@ -78,7 +78,7 @@ nav .logo{
   
 }
 nav .logo img{
-  height: 60px;
+  height: 55px;
   margin: 5px;
   filter: drop-shadow(.5rem .5rem 1rem #fff);
 }
@@ -262,7 +262,7 @@ nav ul li a:hover{
     margin-right: 20px;
   }
   nav .logo img{
-    height:55px;
+    height:30px;
     transition: all ease 0.5s;
   }
   @keyframes slide_down {
@@ -278,7 +278,7 @@ nav ul li a:hover{
     margin-right: 10px;
   }
   nav .logo img{
-    height:50px;
+    height:25px;
     transition: all ease 0.5s;
   }
   @keyframes slide_down {
@@ -297,7 +297,7 @@ nav ul li a:hover{
     margin-left: 10px;
   }
   nav .logo img{
-    height:50px;
+    height:25px;
     transition: all ease 0.5s;
   }
   @keyframes slide_down {
@@ -317,7 +317,7 @@ nav ul li a:hover{
     margin-left: 0;
   }
   nav .logo img{
-    height:30px;
+    height:20px;
     transition: all ease 0.5s;
   }
   @keyframes slide_down {
