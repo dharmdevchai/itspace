@@ -262,7 +262,8 @@ nav ul li a:hover{
     margin-right: 20px;
   }
   nav .logo img{
-    height:30px;
+    height:35
+      px;
     transition: all ease 0.5s;
   }
   @keyframes slide_down {
@@ -278,7 +279,7 @@ nav ul li a:hover{
     margin-right: 10px;
   }
   nav .logo img{
-    height:25px;
+    height:30px;
     transition: all ease 0.5s;
   }
   @keyframes slide_down {
@@ -317,7 +318,7 @@ nav ul li a:hover{
     margin-left: 0;
   }
   nav .logo img{
-    height:20px;
+    height:25px;
     transition: all ease 0.5s;
   }
   @keyframes slide_down {
